@@ -176,3 +176,4 @@ dist
 
 
 .local_dynamo
+dynamodb-local-metadata.json

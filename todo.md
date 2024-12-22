@@ -6,11 +6,11 @@ Items that are _requried_ before we can have a initial `0.0.1` relase. Until the
 
 ### `start()`
 
-- [ ] **Setup Factory Stub**
+- [x] **Setup Factory Stub**
 
   - Create a basic factory stub as the foundation for the project, initially including just the `start()` method.
 
-- [ ] **Download DynamoDB Local JAR**
+- [x] **Download DynamoDB Local JAR**
 
   - Allow the user to provide a local path or URL for the DynamoDB Local JAR.
   - If no path or URL is provided, automatically download the latest version.
@@ -19,16 +19,16 @@ Items that are _requried_ before we can have a initial `0.0.1` relase. Until the
 
   - Ensure that no existing DynamoDB process is running before starting a new one.
 
-- [ ] **Support Modes**
+- [x] **Support Modes**
 
   - Add support for both `inMemory` and `shared` modes.
 
-- [ ] **Spawn DynamoDB Process**
+- [x] **Spawn DynamoDB Process**
   - Implement functionality to spawn the DynamoDB process.
 
 ### `stop()`
 
-- [ ] **Terminate Process**
+- [x] **Terminate Process**
   - Add logic to gracefully kill the running DynamoDB process.
 
 ### Test
