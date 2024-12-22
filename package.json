@@ -1,0 +1,16 @@
+{
+    "name": "local-dynamo",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "format": "prettier --write \"**/*.{ts,tsx,md}\""
+      },
+    "devDependencies": {
+        "@types/bun": "1.1.14"
+    },
+    "dependencies": {
+        "prettier": "3.4.2"
+    }
+}

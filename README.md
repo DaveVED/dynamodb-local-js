@@ -1,2 +1,3 @@
 # local-dynamo
-Spin up and manage DynamoDB Local environments for testing, with TypeScript support.
+
+// https://d1ni2b6xgvw0s0.cloudfront.net/v2.x/dynamodb_local_latest.zip
