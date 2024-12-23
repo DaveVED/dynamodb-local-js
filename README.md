@@ -2,7 +2,7 @@
 <p align="center">
   <a href="https://localdynamodb.js.org">
     <picture>
-      <img src="https://raw.githubusercontent.com/DaveVED/local-dynamodb-js/main/assets/logo-light-v2.jpg" alt="OpenAuth logo">
+      <img src="https://raw.githubusercontent.com/DaveVED/local-dynamodb-js/main/assets/logo-light.jpg" alt="OpenAuth logo">
     </picture>
   </a>
 </p>
