@@ -1,23 +1,21 @@
 <p align="center">
   <a href="https://localdynamodb.js.org">
     <picture>
-      <img src="https://raw.githubusercontent.com/DaveVED/local-dynamodb-js/main/assets/logo-light.png" alt="LocalDynamoDb logo">
+      <img src="https://raw.githubusercontent.com/DaveVED/local-dynamodb-js/main/assets/logo-light.png" alt="LocalDynamoDb logo" style="max-height: 100px;">
     </picture>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@openauthjs/openauth">
-    <img alt="npm version" src="https://img.shields.io/npm/v/%40openauthjs%2Fcore?style=flat-square" />
+  <a href="https://www.npmjs.com/package/local-dynamodb-js">
+    <img alt="npm version" src="https://img.shields.io/npm/v/local-dynamodb-js?style=flat-square" />
   </a>
-  <a href="https://github.com/openauthjs/openauth/actions/workflows/release.yml">
-    <img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/openauthjs/openauth/release.yml?style=flat-square&branch=master" />
+  <a href="https://github.com/DaveVED/local-dynamodb-js/actions/workflows/release.yml">
+    <img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/DaveVED/local-dynamodb-js/release.yml?style=flat-square&branch=master" />
   </a>
 </p>
 
 ---
-
-# LocalDynamoDb
 
 [LocalDynamoDb](https://localdynamodb.js.org) is a lightweight, standalone adapter for spinning up and managing local DynamoDB containers. It provides a practical and reliable solution for users who need a quick alternative for testing DynamoDB locally in JavaScript-based projects (Node.js, Bun, Deno, etc.).
 
