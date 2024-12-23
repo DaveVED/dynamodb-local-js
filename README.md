@@ -25,7 +25,7 @@ Offering a lightweight and practical alternative to more comprehensive solutions
 
 - [Key Features](#key-features)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Tutorial](#tutorial)
 - [Contribution](#contribution)
 
 ## Key Features
