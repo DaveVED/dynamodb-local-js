@@ -1,6 +1,22 @@
-# local-dynamodb-js
 
-A lightweight, standalone adapter for spinning up and managing local DynamoDB containers. It provides a practical and reliable solution for users who need a quick alternative for testing DynamoDB locally in JavaScript-based projects (Node.js, Bun, Deno, etc.).
+<p align="center">
+  <a href="https://openauth.js.org">
+    <picture>
+      <source srcset="https://raw.githubusercontent.com/DaveVED/assets/main/logo-light.jpg" media="(prefers-color-scheme: dark)">
+      <source srcset="https://raw.githubusercontent.com/DaveVED/assets/main/logo-light.jpg" media="(prefers-color-scheme: light)">
+      <img src="https://raw.githubusercontent.com/DaveVED/assets/main/logo-light.jpg" alt="OpenAuth logo">
+    </picture>
+  </a>
+</p>
+<p align="center">
+  <a href="https://sst.dev/discord"><img alt="Discord" src="https://img.shields.io/discord/983865673656705025?style=flat-square&label=Discord" /></a>
+  <a href="https://www.npmjs.com/package/@openauthjs/openauth"><img alt="npm" src="https://img.shields.io/npm/v/%40openauthjs%2Fcore?style=flat-square" /></a>
+  <a href="https://github.com/openauthjs/openauth/actions/workflows/release.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/openauthjs/openauth/release.yml?style=flat-square&branch=master" /></a>
+</p>
+
+---
+
+[LocalDynamoDb](www.google.com) is a lightweight, standalone adapter for spinning up and managing local DynamoDB containers. It provides a practical and reliable solution for users who need a quick alternative for testing DynamoDB locally in JavaScript-based projects (Node.js, Bun, Deno, etc.).
 
 Offering a lightweight and practical alternative to more comprehensive solutions like [_LocalStack test containers_](https://docs.localstack.cloud/user-guide/integrations/testcontainers/). It addresses the need for a modern, maintained option, as many JavaScript/TypeScript libraries supporting local DynamoDB testing have become stale.
 
@@ -12,3 +28,10 @@ Offering a lightweight and practical alternative to more comprehensive solutions
 ## ⇁ TOC
 
 ## ⇁ Getting Started
+
+## ⇁ Usage
+
+## ⇁ Contribution
+---
+
+_LocalDynamoDb_ is developed by [_Dave Dennis_](https://davedennis.dev). If you'd like to contribute, please check out the contribution guide or file an issue. For urgent matters, feel free to email me at _<me@davedennis.dev>_
