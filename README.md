@@ -1,34 +1,63 @@
-
 <p align="center">
   <a href="https://localdynamodb.js.org">
     <picture>
-      <img src="https://raw.githubusercontent.com/DaveVED/local-dynamodb-js/main/assets/logo-light.jpg" alt="OpenAuth logo">
+      <img src="https://raw.githubusercontent.com/DaveVED/local-dynamodb-js/main/assets/logo-light.png" alt="LocalDynamoDb logo">
     </picture>
   </a>
 </p>
+
 <p align="center">
-  <a href="https://www.npmjs.com/package/@openauthjs/openauth"><img alt="npm" src="https://img.shields.io/npm/v/%40openauthjs%2Fcore?style=flat-square" /></a>
-  <a href="https://github.com/openauthjs/openauth/actions/workflows/release.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/openauthjs/openauth/release.yml?style=flat-square&branch=master" /></a>
+  <a href="https://www.npmjs.com/package/@openauthjs/openauth">
+    <img alt="npm version" src="https://img.shields.io/npm/v/%40openauthjs%2Fcore?style=flat-square" />
+  </a>
+  <a href="https://github.com/openauthjs/openauth/actions/workflows/release.yml">
+    <img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/openauthjs/openauth/release.yml?style=flat-square&branch=master" />
+  </a>
 </p>
 
 ---
 
-[LocalDynamoDb](www.google.com) is a lightweight, standalone adapter for spinning up and managing local DynamoDB containers. It provides a practical and reliable solution for users who need a quick alternative for testing DynamoDB locally in JavaScript-based projects (Node.js, Bun, Deno, etc.).
+# LocalDynamoDb
 
-Offering a lightweight and practical alternative to more comprehensive solutions like [_LocalStack test containers_](https://docs.localstack.cloud/user-guide/integrations/testcontainers/). It addresses the need for a modern, maintained option, as many JavaScript/TypeScript libraries supporting local DynamoDB testing have become stale.
+[LocalDynamoDb](https://localdynamodb.js.org) is a lightweight, standalone adapter for spinning up and managing local DynamoDB containers. It provides a practical and reliable solution for users who need a quick alternative for testing DynamoDB locally in JavaScript-based projects (Node.js, Bun, Deno, etc.).
 
-- __Universal__: Works with any existing JavaScript or TypeScript test framework, assuming your OS supports it (e.g., Java must be installed).
-- __Lightweight__: Minimal dependencies, keeping the project simple and efficient.
-- __Standards-based__: Follows AWS's implementation pattern for running DynamoDB locally, ensuring compatibility for anyone using DynamoDB.
-- __Customizable__: Easily manage your local DynamoDB container. Configure options like port, inMemory, sharedDb, and handle operations like start, stop, restart, or integrate it into your workflows as needed.
+Offering a lightweight and practical alternative to more comprehensive solutions like [_LocalStack test containers_](https://docs.localstack.cloud/user-guide/integrations/testcontainers/), it addresses the need for a modern, maintained option. Many JavaScript/TypeScript libraries supporting local DynamoDB testing have become stale, and LocalDynamoDb bridges this gap.
 
-## ⇁ TOC
+## Table of Contents
 
-## ⇁ Getting Started
+- [Key Features](#key-features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
 
-## ⇁ Usage
+## Key Features
 
-## ⇁ Contribution
+- **Universal**: Works with any existing JavaScript or TypeScript test framework, assuming your OS supports it (e.g., Java must be installed).
+- **Lightweight**: Minimal dependencies, keeping the project simple and efficient.
+- **Standards-based**: Follows AWS's implementation pattern for running DynamoDB locally, ensuring compatibility for anyone using DynamoDB.
+- **Customizable**: Easily manage your local DynamoDB container. Configure options like port, in-memory mode, shared databases, and handle operations like start, stop, restart, or integrate it into your workflows as needed.
+
+## Installation
+
+You can install _LocalDynamoDb_ using any of the major JavaScript runtimes.
+
+| Runtime | Command                          |
+| ------- | -------------------------------- |
+| Bun     | `bun add local-dynamodb-js`      |
+| npm     | `npm install local-dynamodb-js`  |
+| pnpm    | `pnpm add local-dynamodb-js`     |
+| Deno    | `deno install local-dynamodb-js` |
+
+Select the command based on your runtime of choice, and you're ready to get started!
+
+## Tutorial
+
+## Contribution
+
+_LocalDynamoDb_ is officially open source and no longer just public source. Since LocalDynamoDb is small, we aim to solve _the problem_ with _proper hooks_ rather than addressing highly specific issues. With that said, pull requests (PRs) for valid issues, features, and enhancements are welcome.
+
+To get started with contributions, check out our [Contribution Guide](https://localdynamodb.js.org/contribute).
+
 ---
 
-_LocalDynamoDb_ is developed by [_Dave Dennis_](https://davedennis.dev). If you'd like to contribute, please check out the contribution guide or file an issue. For urgent matters, feel free to email me at _<me@davedennis.dev>_
+_LocalDynamoDb_ is developed by [Dave Dennis](https://davedennis.dev). If you'd like to contribute, please check out the contribution guide or file an issue. For urgent matters, feel free to email me at [me@davedennis.dev](mailto:me@davedennis.dev).

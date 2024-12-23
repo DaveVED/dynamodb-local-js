@@ -1,10 +1,16 @@
-import { downloadLocalDynamoDb } from "../src/utils";
+import { describe, test, expect, mock } from "bun:test";
+import { pathExists } from "../src/utils.ts";
 
-import { expect, describe, test } from "bun:test";
 describe("utils", () => {
-  describe("downloadLocalDynamoDb", () => {
-    test("should download file from the web with a proivded source url", () => {
-      expect(downloadLocalDynamoDb({ sourceType: "www" }));
+  describe("pathExists", () => {
+    test("should return true if the path exists", async () => {
+      const result = await pathExists("existing-path");
+      expect(result).toBe(true);
+    });
+
+    test("should return false if the path does not exist", async () => {
+      const result = await pathExists("non-existing-path");
+      expect(result).toBe(false);
     });
   });
 });

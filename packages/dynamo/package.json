@@ -1,21 +1,37 @@
 {
-  "name": "local-dynamo",
-  "version": "0.0.0",
-  "module": "index.ts",
+  "name": "local-dynamodb-js",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
+    "build": "bun run scripts/build.ts",
     "test": "bun test",
-    "test:watch": "bun test --watch"
+    "test:watch": "bun test --watch",
+    "test:coverage": "bun test --coverage"
   },
+  "sideEffects": false,
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
     "@types/adm-zip": "0.5.7",
     "bun-types": "latest"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "types": "./dist/types/index.d.ts"
+    },
+    "./*": {
+      "import": "./dist/esm/*.js",
+      "types": "./dist/types/*.d.ts"
+    }
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
     "adm-zip": "0.5.16"
-  }
+  },
+  "files": [
+    "src",
+    "dist"
+  ]
 }

@@ -32,26 +32,31 @@ Items that are _requried_ before we can have a initial `0.0.1` relase. Until the
   - Add logic to gracefully kill the running DynamoDB process.
 
 ### `liveness`
-  - ` return dynamoDbProcess !== null;`
-  - Use this if you only want to check that the DynamoDB Local process is alive and running.
+
+- ` return dynamoDbProcess !== null;`
+- Use this if you only want to check that the DynamoDB Local process is alive and running.
 
 ### `readiness`
-  - Use this if you want to check whether DynamoDB Local is ready to handle API requests.
-  - Example: Sending a health check HTTP request to http://localhost:8000/ to verify the service is up.
+
+- Use this if you want to check whether DynamoDB Local is ready to handle API requests.
+- Example: Sending a health check HTTP request to http://localhost:8000/ to verify the service is up.
 
 ### `restart()`
-  - Restart
+
+- Restart
 
 ### `configure()`
-  - Updates the internal configuration of your localDynamoDb instance dynamically.
-  - Ensures the new options will take effect on the next start operation.
-  - `Object.assign(options, newOptions);`
+
+- Updates the internal configuration of your localDynamoDb instance dynamically.
+- Ensures the new options will take effect on the next start operation.
+- `Object.assign(options, newOptions);`
 
 ### `port()` / `mode()`
 
 ### `status()`
-  - meta data.
-  
+
+- meta data.
+
 ### Test
 
 - `start()`

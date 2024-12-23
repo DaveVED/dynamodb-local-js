@@ -175,5 +175,5 @@ dist
 .DS_Store
 
 
-.local_dynamo
+.local_dynamodb
 dynamodb-local-metadata.json
