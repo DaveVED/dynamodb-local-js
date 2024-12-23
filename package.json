@@ -2,12 +2,13 @@
     "name": "localdynamodbjs",
     "private": true,
     "workspaces": [
-        "packages/*"
+        "packages/*",
+        "examples/*"
     ],
     "scripts": {
         "format": "prettier --write \"**/*.{ts,tsx,md}\"",
         "release": "bun run --filter=\"local-dynamodb-js\" build && changeset publish"
-      },
+    },
     "devDependencies": {
         "@types/bun": "1.1.14"
     },

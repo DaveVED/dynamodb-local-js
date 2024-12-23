@@ -52,6 +52,34 @@ Select the command based on your runtime of choice, and you're ready to get star
 
 ## Tutorial
 
+To get started quickly, check out our [_examples_](https://github.com/DaveVED/local-dynamodb-js/tree/main/examples). If you'd like to follow along with a simple tutorial, let's go through the setup and usage.
+
+### Create a Container
+
+First, create your _LocalDynamoDb_ container. This will automatically download the latest DynamoDB version unless you specify a version or use a local copy.
+
+```typescript
+import { localDynamoDb } from "local-dynamodb-js";
+
+const { start, stop } = localDynamoDb({
+  port: 8000,
+  mode: "inMemory",
+});
+```
+### Start and Stop the Container
+
+Once your container is set up, you can start and stop it using the provided functions.
+
+```typescript
+import { localDynamoDb } from "local-dynamodb-js";
+
+const { start, stop } = localDynamoDb({ port: 8000, mode: "inMemory" });
+
+await start();           // Start the DynamoDB instance
+await setTimeout(2000);  // Wait for 2 seconds
+stop();                  // Stop the DynamoDB instance
+```
+
 ## Contribution
 
 _LocalDynamoDb_ is officially open source and no longer just public source. Since LocalDynamoDb is small, we aim to solve _the problem_ with _proper hooks_ rather than addressing highly specific issues. With that said, pull requests (PRs) for valid issues, features, and enhancements are welcome.
